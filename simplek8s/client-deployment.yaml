@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: client-deployment
-  
-        image: stephengrider/multi-client
+        image: andrewresmed/multi-client
         resources:
           limits:
             memory: "128Mi"
